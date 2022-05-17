@@ -1,0 +1,16 @@
+  
+@authorization=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
+
+POST https://api.openai.com/v1/engines/text-davinci-002/completions HTTP/1.1
+content-type: application/json
+ Authorization: Bearer {{authorization}}
+
+{"prompt": "Suggest a meal given a mood.
+  Mood: Sad
+  Recipe: Need comfort? Try ice cream: Stir 3/4c white sugar, 1c heavy whipping cream, and 2 1/4c milk into a saucepan over low heat until sugar has dissolved. Transfer cream mixture to a pourable container such as a large measuring cup. Stir in 2 tsp vanilla extract and chill mix thoroughly, at least 2 hours. (Overnight is best.) Pour cold ice cream mix into an ice cream maker, turn on the machine, and churn according to manufacturer's directions, 20 to 25 minutes. When ice cream is softly frozen, serve immediately or place a piece of plastic wrap directly on the ice cream and place in freezer to ripen, 2 to 3 hours.
+  Mood: Happy
+  Recipe: Tacos are happy: Cook beef or plant-based beef in 10-inch skillet over medium heat 8 to 10 minutes, stirring occasionally, until brown; drain. Stir salsa into beef. Heat to boiling, stirring constantly; reduce heat to medium-low. Cook 5 minutes, stirring occasionally. Pour beef mixture into large serving bowl.Heat taco shells as directed on package. Serve taco shells with beef mixture, lettuce, tomato and cheese.
+  Mood: Anxious
+  Recipe:",
+"temperature": 0.6,
+}
