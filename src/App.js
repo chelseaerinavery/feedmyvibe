@@ -41,7 +41,7 @@ function App() {
         frequency_penalty: 0.0,
         presence_penalty: 0.0,
       });
-      console.log(completion, "tag");
+
       const response = {
         text: completion.data.choices[0].text,
         prompt: moodInput[0].toUpperCase() + moodInput.slice(1).toLowerCase(),
