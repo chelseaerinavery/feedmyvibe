@@ -59,7 +59,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Chelsea's Shopify Technical Project</h1>
+        <h1>Feed My Vibe</h1>
         <h2>Exploring AI</h2>
       </header>
       <div className="Input">

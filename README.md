@@ -16,7 +16,7 @@ npm start
 
 Chelsea Avery
 
-📫 chelsea.erin.avery@gmail.com
+📫 chelseaavery.js@gmail.com
 
 🐙 https://github.com/chelseaerinavery
 
