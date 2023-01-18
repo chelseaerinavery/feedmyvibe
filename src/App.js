@@ -51,7 +51,9 @@ function App() {
       setMoodInput("");
       setFetching(false);
     } catch (e) {
-      alert(e, "big error");
+      alert(
+        "Oh no! GPT-3 credits have expired. Hire me so I can purchase more ✨"
+      );
       setFetching(false);
     }
   }
