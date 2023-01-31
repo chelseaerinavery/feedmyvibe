@@ -52,7 +52,7 @@ function App() {
       setFetching(false);
     } catch (e) {
       alert(
-        "Oh no! GPT-3 credits have expired. Hire me so I can purchase more ✨"
+        "Oh no! GPT-3 tokens have expired. Hire me so I can purchase more ✨"
       );
       setFetching(false);
     }
