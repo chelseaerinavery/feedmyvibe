@@ -2,7 +2,6 @@ import "./App.css";
 import { useState } from "react";
 import { Configuration, OpenAIApi } from "openai";
 
-require('dotenv').config();
 const configuration = new Configuration({
   apiKey: process.env.REACT_APP_OPENAI_SECRET,
 });
